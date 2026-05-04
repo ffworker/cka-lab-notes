@@ -1,0 +1,11 @@
+bases:
+  - ../../base
+
+patches:
+  - patch: |-
+      - op: replace
+      path: /spec/replicas
+      value: 1
+
+components:
+  - ../../components/db

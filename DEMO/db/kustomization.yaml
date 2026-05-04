@@ -1,0 +1,17 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - db-config.yaml
+  - db-depl.yaml
+  - db-svc.yaml
+
+commonLabels:
+  feature: db
+
+nameSuffix: -web
+
+images:
+  - name: mongo
+    newName: postgres
+    newTag: "latest"
