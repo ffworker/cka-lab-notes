@@ -10,3 +10,6 @@ Main scope:
 - kube-proxy rules
 
 Reference: `DEMO/troubleshoot/03-NETWORK.md`.
+
+
+kubectl get nodes -o=jsonpath'$.metadata.namesB.'
