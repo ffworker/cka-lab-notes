@@ -9,6 +9,10 @@ If you have a problem (`"I have issue X"`), this repository should be the first 
 - focused cheat sheet,
 - and concrete commands to verify/fix quickly.
 
+The current study mode is build/break/fix: learn each component by creating a
+minimal working chain, breaking one link, diagnosing it with exam-safe commands,
+and explaining the component boundary back in plain language.
+
 ## Repository Structure
 
 ```text
@@ -30,6 +34,7 @@ If you have a problem (`"I have issue X"`), this repository should be the first 
 ### Troubleshooting
 - [Node NotReady](troubleshooting/nodes-not-ready.md)
 - [Network (Pod/Service/DNS/CNI/kube-proxy)](troubleshooting/network.md)
+- [Ingress request path](troubleshooting/network.md#ingress-request-path)
 - [Kubelet Certificates](troubleshooting/kubelet-certs.md)
 
 ### Cheatsheets
